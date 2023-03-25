@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utilities.Listeners"/>
+    <listener class-name="Utilities.ListenersRetryAnalyzer"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/Koray/IdeaProjects/TestNGProjectLastVersion1/src/test/java/Tests/US18_US19_US20(failed)">
+    <classes>
+      <class name="Tests.US18_US19_US20.US19Tests">
+        <methods>
+          <include name="TC07"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Tests.US18_US19_US20.US19Tests -->
+    </classes>
+  </test> <!-- C:/Users/Koray/IdeaProjects/TestNGProjectLastVersion1/src/test/java/Tests/US18_US19_US20(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

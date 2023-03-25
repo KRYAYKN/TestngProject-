@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utilities.Listeners"></listener>
+        <listener class-name="Utilities.ListenersRetryAnalyzer"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Koray/IdeaProjects/TestNGProjectLastVersion1/src/test/java/Tests/US18_US19_US20">
+        <classes>
+            <class name="Tests.US18_US19_US20.US18Tests">
+                <methods>
+                    <include name="TC01"/>
+                    <include name="TC02"/>
+                    <include name="TC03"/>
+                    <include name="TC04"/>
+                </methods>
+            </class>
+            <class name="Tests.US18_US19_US20.US19Tests">
+                <methods>
+                    <include name="TC01"/>
+                    <include name="TC02"/>
+                    <include name="TC03"/>
+                    <include name="TC04"/>
+                    <include name="TC05"/>
+                    <include name="TC06"/>
+                    <include name="TC07"/>
+                </methods>
+            </class>
+            <class name="Tests.US18_US19_US20.US20Tests">
+                <methods>
+                    <include name="TC01"/>
+                    <include name="TC02"/>
+                    <include name="TC03"/>
+                    <include name="TC04"/>
+                    <include name="TC05"/>
+                    <include name="TC06"/>
+                    <include name="TC07"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

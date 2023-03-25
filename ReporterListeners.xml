@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<listeners>
+    <listener class-name="Utilities.Listeners"></listener>
+    <listener class-name="Utilities.ListenersRetryAnalyzer"></listener>
+</listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Koray/IdeaProjects/TestNGProjectLastVersion1/src/test/java/Tests">
+        <classes>
+            <class name="Tests.US01_US02.US_01">
+                <methods>
+                    <include name="TC_01"/>
+                    <include name="TC_02"/>
+                </methods>
+            </class>
+            <class name="Tests.US01_US02.US_02">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="Tests.US03_US04.US_03_GOKSEL">
+                <methods>
+                    <include name="testUS3_TC1_01"/>
+                    <include name="testUS3_TC1_02"/>
+                    <include name="testUS3_TC1_03"/>
+                    <include name="testUS03_TC1_04"/>
+                    <include name="testUS03_TC1_05"/>
+                    <include name="testUS03_TC1_06"/>
+                    <include name="testUS03_TC1_07"/>
+                    <include name="testUS03_TC1_08"/>
+                    <include name="testUS03_TC2_01"/>
+                    <include name="testUS03_TC2_02"/>
+                    <include name="testUS03_TC2_03"/>
+                </methods>
+            </class>
+            <class name="Tests.US03_US04.US_04_GOKSEL">
+                <methods>
+                    <include name="TestUS4_TC1_01"/>
+                    <include name="TestUS4_TC1_02"/>
+                    <include name="TestUS4_TC1_03"/>
+                    <include name="TestUS4_TC1_04"/>
+                    <include name="TestUS4_TC1_05"/>
+                    <include name="TestUS4_TC1_06"/>
+                    <include name="TestUS4_TC1_07"/>
+                    <include name="TestUS4_TC1_08"/>
+                </methods>
+            </class>
+            <class name="Tests.US05_US06_US17.US05_KullaniciAccountDetails">
+                <methods>
+                    <include name="AccountDetailsIsDisplayedTest"/>
+                    <include name="changeAccountInformation"/>
+                    <include name="changeBiography"/>
+                    <include name="changePassword"/>
+                </methods>
+            </class>
+            <class name="Tests.US05_US06_US17.US06_KullaniciAlisveris">
+                <methods>
+                    <include name="searchProduct"/>
+                    <include name="addToCart"/>
+                    <include name="viewProductInCart"/>
+                    <include name="quantityChange"/>
+                    <include name="billingDetails"/>
+                    <include name="paymentMethods"/>
+                    <include name="placeOrder"/>
+                </methods>
+            </class>
+            <class name="Tests.US07_08.US07_Test">
+                <methods>
+                    <include name="testCase01"/>
+                    <include name="testCase02"/>
+                    <include name="testCase03"/>
+                </methods>
+            </class>
+            <class name="Tests.US07_08.US08_Test">
+                <methods>
+                    <include name="testCase01"/>
+                    <include name="testCase02"/>
+                    <include name="testCase03"/>
+                    <include name="testCase04"/>
+                    <include name="testCase05"/>
+                </methods>
+            </class>
+            <class name="Tests.US11_US12.MyAccountTest11">
+                <methods>
+                    <include name="MyAccountTest"/>
+                </methods>
+            </class>
+            <class name="Tests.US11_US12.US12">
+                <methods>
+                    <include name="US12_TC01"/>
+                    <include name="US12_TC02"/>
+                    <include name="US12_TC03"/>
+                    <include name="US12_TC04"/>
+                    <include name="US12_TC05"/>
+                    <include name="US12_TC06"/>
+                    <include name="US12_TC07"/>
+                    <include name="US12_TC08"/>
+                    <include name="US12_TC09"/>
+                    <include name="US12_TC10"/>
+                </methods>
+            </class>
+            <class name="Tests.US11_US12.VendorLoginTest11">
+                <methods>
+                    <include name="vendorLoginTest"/>
+                </methods>
+            </class>
+            <class name="Tests.US13_14.US13Tests">
+                <methods>
+                    <include name="US13_TC01"/>
+                    <include name="US13_TC02"/>
+                    <include name="US13_TC03"/>
+                    <include name="US13_TC04"/>
+                    <include name="US13_TC05"/>
+                    <include name="US13_TC06"/>
+                    <include name="US13_TC07"/>
+                    <include name="US13_TC08"/>
+                </methods>
+            </class>
+            <class name="Tests.US13_14.US14Tests">
+                <methods>
+                    <include name="US14_TC01"/>
+                    <include name="US14_TC02"/>
+                    <include name="US14_TC03"/>
+                    <include name="US14_TC04"/>
+                    <include name="US14_TC05"/>
+                    <include name="US14_TC06"/>
+                    <include name="US14_TC07"/>
+                    <include name="US14_TC08"/>
+                    <include name="US14_TC09"/>
+                    <include name="US14_TC10"/>
+                    <include name="US14_TC11"/>
+                    <include name="US14_TC12"/>
+                    <include name="US14_TC13"/>
+                    <include name="US14_TC14"/>
+                    <include name="US14_TC15"/>
+                </methods>
+            </class>
+            <class name="Tests.US18_US19_US20.US18Tests">
+                <methods>
+                    <include name="TC01"/>
+                    <include name="TC02"/>
+                    <include name="TC03"/>
+                    <include name="TC04"/>
+                </methods>
+            </class>
+            <class name="Tests.US18_US19_US20.US19Tests">
+                <methods>
+                    <include name="TC01"/>
+                    <include name="TC02"/>
+                    <include name="TC03"/>
+                    <include name="TC04"/>
+                    <include name="TC05"/>
+                    <include name="TC06"/>
+                    <include name="TC07"/>
+                </methods>
+            </class>
+            <class name="Tests.US18_US19_US20.US20Tests">
+                <methods>
+                    <include name="TC01"/>
+                    <include name="TC02"/>
+                    <include name="TC03"/>
+                    <include name="TC04"/>
+                    <include name="TC05"/>
+                    <include name="TC06"/>
+                    <include name="TC07"/>
+                </methods>
+            </class>
+            <class name="Tests.us15.us015.US15_TC01">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                    <include name="test6"/>
+                    <include name="test7"/>
+                    <include name="test8"/>
+                    <include name="test9"/>
+                </methods>
+            </class>
+            <class name="Tests.us16.US16_TC01">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                    <include name="test6"/>
+                    <include name="test7"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
