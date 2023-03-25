@@ -42,7 +42,7 @@ public class US18Tests {
 
         Reporter.log("EXTERNAL/AFFILIATE PRODUCT SECILDI");
     }
-
+//koraysssst
 
     @Test
     public void TC02() {
